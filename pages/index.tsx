@@ -19,7 +19,7 @@ const Index: NextPage = ({currentDate} : IndexProps) => {
         onClick={(e : SyntheticEvent<HTMLButtonElement>) => {
           Router.push('/share');
         }}
-        className={S.shareButton}>Share event</button>
+        className={S.shareButton}>Share Event</button>
     </div>
   )
 }

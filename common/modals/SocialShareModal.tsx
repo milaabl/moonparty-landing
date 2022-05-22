@@ -20,15 +20,15 @@ export const SocialShareModal : FC = () => {
     </button>
     <h1 className={S.title}>Share this event with your social community</h1>
     <ul className={S.socialShareIconsList}>
-      <li><FacebookShareButton
-      quote="Who else to the MoonParty2?"
-      url="https://moonparty2.com"
-    ><img src={facebookIcon.src} alt="Facebook"/></FacebookShareButton></li>
     <li><TwitterShareButton
       quote="Who else to the MoonParty? https://moonparty.com"
       hashtags={['#moonparty']}
       url="https://moonparty.com"
     ><img src={twitterIcon.src} alt="Twitter"/></TwitterShareButton></li>
+      <li><FacebookShareButton
+      quote="Who else to the MoonParty2?"
+      url="https://moonparty2.com"
+    ><img src={facebookIcon.src} alt="Facebook"/></FacebookShareButton></li>
     </ul>
     <span className={S.option}>Or copy link</span>
     <span className={S.copy}
