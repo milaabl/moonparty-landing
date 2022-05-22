@@ -1,0 +1,64 @@
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 38px;
+}
+.title {
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-transform: uppercase;
+  color: #CDAC5A;
+  margin: 0px 0px 16px 0px;
+  @media (max-width: 600px) {
+    font-size: 20px;
+    line-height: 20px;
+  }
+}
+.targetDate {
+  margin: 0px 0px 3px 0px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  font-weight: 600;
+  font-size: 82px;
+  @media (max-width: 600px) {
+    font-size: 40px;
+  }
+}
+.anniversaryLabel {
+  color: #FFFFFF;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 16px;
+}
+.shareButton {
+  margin-top: 23px;
+  width: 131px;
+  height: 40px;
+  left: 693px;
+  top: 592px;
+  background: #EBCD81;
+  border-radius: 250px;
+  padding: 8px 16px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #353945;
+  cursor: pointer;
+  transition: all 300ms ease-in-out;
+  &:hover {
+    background-color: #ab955d;
+    letter-spacing: 0.5px;
+  }
+  @media (max-width: 600px) {
+    width: 100%;
+    border-radius: 16px;
+  }
+}
