@@ -30,4 +30,7 @@ body {
     height: auto;
     padding: 40px 16px;
   }
+  @media (min-width: 1517px) {
+     background-size: cover;
+  }
 }
